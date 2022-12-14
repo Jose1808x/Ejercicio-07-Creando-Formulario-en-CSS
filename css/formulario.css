@@ -97,7 +97,6 @@ form{
 .seccion-inputs input{
     width: 95%;
     gap:3px;
-    overflow: hidden;
 }
 label{
     display: flex;
@@ -115,7 +114,6 @@ input{
 label span{
     font-weight: 700;
 }
-
 label input:hover{
     background-color: #454045;
     border: 1px solid #d3d3d6;
@@ -128,7 +126,6 @@ label input:focus{
     box-shadow: 0 0 5px #f4f1f44f;
     transition: 0.7s;
 }
-
 .checkbox{
     display: flex;
     flex-direction: row;
